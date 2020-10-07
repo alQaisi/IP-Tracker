@@ -48,7 +48,7 @@ class App extends Component{
           })
         }).catch(err=>{
           this.setState({loaderVisability:false});
-          alert('ADD A VALID IP ADDRESS')
+          alert('ADD A VALID IP ADDRESS OR CHECK YOUR INTERNET CONNECTION');
         })
     }
   }
