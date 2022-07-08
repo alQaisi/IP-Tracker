@@ -1,10 +1,6 @@
-.Map{
+.leaflet-container {
     width:100%;
-    height:62.5vh;
+    height:75vh;
     top:0px;
     z-index:1;
-}
-.Marker{
-    margin: 100px;
-    background-image:url('icon-location.svg');
 }
