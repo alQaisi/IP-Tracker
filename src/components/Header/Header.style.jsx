@@ -6,7 +6,7 @@ export const HeaderContainer=styled.header`
     height:350px;
     display: block;
     position: relative;
-    background: url('pattern-bg.png') 50% 0 no-repeat;
+    background: ${`url(${require(`./pattern-bg.png`)}) 50% 0 no-repeat`};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

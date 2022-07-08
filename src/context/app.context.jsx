@@ -33,8 +33,8 @@ const AppReducer=function(state,action){
 export function AppProvider({children}){
     const [{input,ip,position,loaderVisability,ipInfo},dispatch]=useReducer(AppReducer,INITIAL_STATE);
     
-    function changeMapPosition(evt){
-        dispatch({type:"CHANGE_MAP_LOCATION",payload:evt.latlng});
+    function changeMapPosition(position){
+        dispatch({type:"CHANGE_MAP_LOCATION",payload:position});
     }
 
     function onInputChange(evt){

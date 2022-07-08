@@ -48,8 +48,8 @@ export const Databox=styled.div`
         &{
             flex-direction: column;
             top: 125px;
-        }
-        & p{
+        } 
+        & p,& p:last-of-type{
             margin-bottom:5px;
             margin-top:5px;
             margin:5px 15px;
@@ -57,7 +57,7 @@ export const Databox=styled.div`
             border:none;
             line-height: 13px;
             font-size: 15px;
-        }
+        } 
     }
     @media screen and (max-width:300px){
         &{
@@ -72,6 +72,6 @@ export const Databox=styled.div`
 
 export const DataboxItem=styled.p`
     &::before{
-        ${({title})=>`content:${title}`};
+        content: '${({title}) => title}'
     }
 `
