@@ -5,6 +5,7 @@ import { Icon } from "leaflet";
 import locationMarker from './location-marker-1719247-1460733.png'
 import MapComponent from './mapComponent.component';
 import ChangeView from './changeView.component';
+import 'leaflet/dist/leaflet.css'
 import "./Map.style.css";
 
 function MapLayer(){

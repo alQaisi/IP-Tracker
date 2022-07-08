@@ -64,7 +64,6 @@ export function AppProvider({children}){
             };
             dispatch({type:"CHANGE_IP_INFO",payload:newState});
         }).catch(err=>{
-            console.log(err);
             alert('ADD A VALID IP ADDRESS OR CHECK YOUR INTERNET CONNECTION');
             dispatch({type:"TOGGLE_LOADER",payload:false});
         });

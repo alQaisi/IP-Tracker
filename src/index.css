@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.loader img{
+.loader>img{
     width: 100%;
     height: auto;
 }
