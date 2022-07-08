@@ -1,0 +1,10 @@
+.Map{
+    width:100%;
+    height:62.5vh;
+    top:0px;
+    z-index:1;
+}
+.Marker{
+    margin: 100px;
+    background-image:url('icon-location.svg');
+}
