@@ -1,6 +1,4 @@
+@import '~leaflet/dist/leaflet.css';
 .leaflet-container {
-    width:100%;
     height:75vh;
-    top:0px;
-    z-index:1;
 }
