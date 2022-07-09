@@ -13,7 +13,6 @@ function MapLayer(){
         iconUrl: locationMarker,
         iconSize: [40,40]
     });
-
     const {position}=useContext(AppContext);
     return(
         <MapContainer center={position}  zoom={13} scrollWheelZoom={true}  dragging={true} animate={true} easeLinearity={0.35}>

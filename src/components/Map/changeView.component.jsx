@@ -5,6 +5,9 @@ function ChangeView({ center, zoom }) {
     const {position}=useContext(AppContext);
     const map = useMap();
     map.setView(position, zoom);
+    setTimeout(function () {
+        map.invalidateSize(true) ;
+     },200);
     return null;
 }
 export default ChangeView;
