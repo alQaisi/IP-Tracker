@@ -8,7 +8,7 @@ function DataBox(){
     return(
         <Databox>
             <DataboxItem title="IP ADDRESS">{ip}</DataboxItem>
-            <DataboxItem title="LOCATION">{city+country}</DataboxItem>
+            <DataboxItem title="LOCATION">{city+" , "+country}</DataboxItem>
             <DataboxItem title="TIMEZONE">{timezone}</DataboxItem>
             <DataboxItem title="ISP">{isp}</DataboxItem>
         </Databox>
